@@ -1,0 +1,33 @@
+body {
+  font-family: arial;
+  margin: 0;
+  color: #111;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  display: grid;
+  height: 900px;
+  grid-template-columns: 400px 400px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  justify-content: center;
+  background: #dddddd67;
+  border: 1px solid rgba(1, 1, 1, 0.2);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #111;
+  background: #f581e1;
+  padding: 10px 20px;
+}
